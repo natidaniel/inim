@@ -2,12 +2,12 @@
 
 clear;clc
 %% init
-RootDirectory = '/home/maintenance/projects/Unseen Mode 2/IMUImages';
-%SLR: TrainDirectory = '/home/maintenance/projects/Unseen Mode 2/Data/TrainFiles';
-%HAR: TrainDirectory = '/home/maintenance/projects/Unseen Mode 2/IMUImages/NewDataSets/HAR/TrainHAR';
-%PAR: TrainDirectory = '/home/maintenance/projects/Unseen Mode 2/IMUImages/NewDataSets/PAR/TestPAR';
-%TrainDirectory = '/home/maintenance/projects/Unseen Mode 2/IMUImages/PAMAP_ISS/ISS_GW/Test';
-TrainDirectory = '/home/maintenance/projects/Unseen Mode 2/IMUImages/NewDataSets/TransformerData/Train';
+RootDirectory = '/IMUImages';
+%SLR: TrainDirectory = '/Data/TrainFiles';
+%HAR: TrainDirectory = '/IMUImages/NewDataSets/HAR/TrainHAR';
+%PAR: TrainDirectory = '/IMUImages/NewDataSets/PAR/TestPAR';
+%TrainDirectory = '/IMUImages/PAMAP_ISS/ISS_GW/Test';
+TrainDirectory = '/IMUImages/NewDataSets/TransformerData/Train';
 SavetoDisk = 'TRUE';
 MUL_GW = 'TRUE'; % our method
 ISS = 'FALSE'; % use only acc
